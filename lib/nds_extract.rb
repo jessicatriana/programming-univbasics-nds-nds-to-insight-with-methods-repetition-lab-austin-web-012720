@@ -34,7 +34,7 @@ end
 list
 end 
 
-def total_gross(list_of_directors)
+def total_gross(directors_totals)
 total = 0
 index = 0
 
