@@ -34,11 +34,11 @@ end
 list
 end 
 
-def total_gross(directors_database)
+def total_gross(source)
   total = 0
   index = 0
-  while index < directors_database.length do
-    total += directors_totals[list_of_directors(directors_database)[index]]
+  while index < source.length do
+    total += directors_totals[list_of_directors(source)[index]]
     index += 1
  end
   total
