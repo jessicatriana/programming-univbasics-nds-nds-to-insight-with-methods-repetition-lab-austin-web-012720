@@ -38,8 +38,8 @@ def total_gross(directors_totals)
 total = 0
 index = 0
 
-while index < list_of_directors(directors_database).length do 
-  total += directors_totals(directors_database)[index][:name]
+while index < directors_totals(directors_database).length do 
+  total += directors_totals(directors_database)[index]
  
 index += 1
  end
