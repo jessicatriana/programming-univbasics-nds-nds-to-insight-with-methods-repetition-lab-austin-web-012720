@@ -39,7 +39,7 @@ total = 0
 index = 0
 
 while index < directors_totals(directors_database).length do 
-  total += directors_totals(directors_database)[index]
+  total += directors_totals(directors_database)
  
 index += 1
  end
