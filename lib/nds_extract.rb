@@ -35,14 +35,12 @@ list
 end 
 
 def total_gross(source)
-total = 0
-director_index = 0
-
-while director_index < directors_totals(directors_database).length do 
-  new_total = directors_totals(directors_database)[director_index]
-  total += new_total
+  total = 0
+  director_index = 0
+  while director_index < source.size do
+    total += directors_totals(list_of_directors)(director_index)
+    director_index += 1
  
-index += 1
  end
   total
 end
