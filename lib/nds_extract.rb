@@ -34,12 +34,13 @@ end
 list
 end 
 
-def total_gross(directors_totals)
+def total_gross(source)
 total = 0
 director_index = 0
 
 while director_index < directors_totals(directors_database).length do 
-  total += directors_totals(directors_database)[director_index][:worldwide_gross]
+  new_total = directors_totals(directors_database)[director_index]
+  total += new_total
  
 index += 1
  end
