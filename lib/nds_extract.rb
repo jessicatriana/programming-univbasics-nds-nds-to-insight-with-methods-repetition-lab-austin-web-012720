@@ -34,13 +34,14 @@ end
 list
 end 
 
-def total_gross(source)
+def total_gross(list_of_directors)
 total = 0
 index = 0
 
-if directors_totals(source)[index] == list_of_directors(source)[index]
+while index < list_of_directors.length do 
+  total += directors_total[index]
  
-  total += directors_total[index][:name]
+ 
 index += 1
  end
   total
