@@ -39,7 +39,7 @@ total = 0
 index = 0
 
 while index < list_of_directors.length do 
-  total += directors_totals[index]
+  total += directors_totals(source)[index]
  
  
 index += 1
