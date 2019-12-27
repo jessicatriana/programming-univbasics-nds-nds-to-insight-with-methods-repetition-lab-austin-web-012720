@@ -34,7 +34,7 @@ end
 list
 end 
 
-def total_gross(source)
+def total_gross(directors_database)
   total = 0
   index = 0
   while index < directors_database.length do
