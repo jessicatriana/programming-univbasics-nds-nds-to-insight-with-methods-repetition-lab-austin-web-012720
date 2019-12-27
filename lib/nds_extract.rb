@@ -38,7 +38,7 @@ def total_gross(source)
 total = 0
 index = 0
 
-if list_of_directors(source)[index] == directors_totals(source)[index]
+if directors_totals(source)[index] == list_of_directors(source)[index]
  
   total += directors_total[index][:name]
 index += 1
