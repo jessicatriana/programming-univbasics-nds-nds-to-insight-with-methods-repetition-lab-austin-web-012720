@@ -39,7 +39,7 @@ total = 0
 director_index = 0
 
 while director_index < directors_totals(directors_database).length do 
-  total += directors_totals(directors_database)[index][:name]
+  total += directors_totals(directors_database)[director_index]
  
 index += 1
  end
